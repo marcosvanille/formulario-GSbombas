@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gs-bombas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="bomba-style.css">
+
+</head>
+<body class="bg">
+<div class="container">
+
+    <form id="formulario">
+        <h1 id="titulo">Formulario de Cadastro</h1>
+        <div class="form-row">
+            <div class="form-group col-md-10">
+                <label for="nome" class="lb">Nome Completo </label>
+                <input type="text" class="form-control" name="nome" id="nome" required>
+            </div>
+
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="email" class="lb">Email:</label>
+                <input type="email" class="form-control" name="email" id="email"/>
+                <span id="error-email"></span>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="fone" class="lb">Telefone</label>
+                <input type="text" class="form-control" name="fone" id="fone" placeholder="Telefone" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputAddress" class="lb">Endereço</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputCidade" class="lb">Cidade</label>
+                <input type="text" class="form-control" id="inputCidade">
+            </div>
+        </div>
+
+        <!--loja-->
+        <div class="form-row  ">
+            <div class="form-group col-md-3">
+                <label for="inputTipo" class="lb">Tipo de Bomba</label>
+                <select id="inputTipo" class="form-control" >
+                    <option selected></option>
+                    <option id="A" value="A">Bomba de Piscina</option>
+                    <option value="B">Bomba de Poço</option>
+                    <option value="C">Bomba de Hidraulica</option>
+                </select>
+            </div>
+
+
+            <div class="form-group col-md-4">
+                <label for="inputMarca" class="lb">Marca</label>
+                <select id="inputMarca" class="form-control"></select>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="inputPreco" class="lb">Faixa de Preço</label>
+                <input id="inputPreco" class="form-control"/>
+            </div>
+
+        </div>
+
+        <button type="button" class="btn btn-primary" >Cadastrar</button>
+    </form>
+
+
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js
+"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.5/jquery.inputmask.bundle.min.js"></script>
+<script src="bomba.js"></script>
+</body>
+</html>
