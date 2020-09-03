@@ -35,7 +35,7 @@ var preco = $("#inputPreco");
 
 $("#inputTipo").click(function () {
     if (tipo.val() == "A") {
-        preco.val("20 a 30 mil");
+        preco.val("5 a 10 mil ");
         $(preco).prop("disabled", true);
 
         $(marca).empty();
@@ -59,6 +59,48 @@ $("#inputTipo").click(function () {
 
 
     }
+    if (tipo.val() == "B") {
+        preco.val("10 a 15 mil");
+        $(preco).prop("disabled", true);
 
+        $(marca).empty();
 
+        $(marca).append($('<option>', {
+            value: 'bomba-poço1',
+            text: 'bomba-poço1'
+        }));
+
+        $(marca).append($('<option>', {
+            value: 'bomba-poço2',
+            text: 'bomba-poço2'
+        }));
+
+        $(marca).append($('<option>', {
+            value: 'bomba-poço3',
+            text: 'bomba-poço3'
+        }));
+
+    }
+    if (tipo.val() == "C") {
+        preco.val("20 a 50 mil");
+        $(preco).prop("disabled", true);
+
+        $(marca).empty();
+
+        $(marca).append($('<option>', {
+            value: 'bomba-Hidraulica1',
+            text: 'bomba-Hidraulica1'
+        }));
+
+        $(marca).append($('<option>', {
+            value: 'bomba-Hidraulica2',
+            text: 'bomba-Hidraulica2'
+        }));
+
+        $(marca).append($('<option>', {
+            value: 'bomba-Hidraulica3',
+            text: 'bomba-Hidraulica3'
+        }));
+
+    }
 });
