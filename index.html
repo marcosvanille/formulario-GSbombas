@@ -11,7 +11,7 @@
 <body class="bg">
 <div class="container">
 
-    <form id="formulario">
+    <form action="http://localhost:9090" method="post" id="formulario">
         <h1 id="titulo">Formulario de Cadastro</h1>
         <div class="form-row">
             <div class="form-group col-md-10">
@@ -34,11 +34,11 @@
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="inputAddress" class="lb">Endereço</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="">
+                <input type="text" class="form-control" name="endereco" id="inputAddress" placeholder="">
             </div>
             <div class="form-group col-md-4">
                 <label for="inputCidade" class="lb">Cidade</label>
-                <input type="text" class="form-control" id="inputCidade">
+                <input type="text" class="form-control" name="cidade" id="inputCidade">
             </div>
         </div>
 
@@ -46,27 +46,27 @@
         <div class="form-row  ">
             <div class="form-group col-md-3">
                 <label for="inputTipo" class="lb">Tipo de Bomba</label>
-                <select id="inputTipo" class="form-control">
+                <select id="inputTipo" name="tipo" class="form-control">
                     <option selected></option>
-                    <option value="A">Bomba de Piscina</option>
-                    <option value="B">Bomba de Poço</option>
-                    <option value="C">Bomba de Hidraulica</option>
+                    <option name="Bomba de Piscina" value="A">Bomba de Piscina</option>
+                    <option name="Bomba de Poço" value="B">Bomba de Poço</option>
+                    <option name="Bomba de Hidraulica" value="C">Bomba de Hidraulica</option>
                 </select>
             </div>
 
 
             <div class="form-group col-md-4">
-                <label for="inputMarca" class="lb">Marca</label>
-                <select id="inputMarca" class="form-control"></select>
+                <label for="inputMarca"   class="lb">Marca</label>
+                <select id="inputMarca" name="marca" class="form-control"></select>
             </div>
             <div class="form-group col-md-3">
                 <label for="inputPreco" class="lb">Faixa de Preço</label>
-                <input id="inputPreco" class="form-control"/>
+                <input id="inputPreco" name="inputPreco" class="form-control"/>
             </div>
 
         </div>
 
-        <button type="button" class="btn btn-primary">Cadastrar</button>
+        <button type="button" id="botao" class="btn btn-primary">Cadastrar</button>
     </form>
 
 

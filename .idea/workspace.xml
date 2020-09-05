@@ -25,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exercicios-JS-echo-PATH" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,7 +58,9 @@
       <workItem from="1598453727059" duration="3843000" />
       <workItem from="1598472214532" duration="669000" />
       <workItem from="1598558181841" duration="17572000" />
-      <workItem from="1599002165423" duration="2789000" />
+      <workItem from="1599002165423" duration="4234000" />
+      <workItem from="1599232901830" duration="2219000" />
+      <workItem from="1599235165917" duration="6345000" />
     </task>
     <servers />
   </component>
@@ -66,9 +68,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="779" y="312" width="424" height="491" key="FileChooserDialogImpl" timestamp="1598622855481">
-      <screen x="72" y="28" width="1848" height="1052" />
+    <state x="896" y="264" width="424" height="491" key="FileChooserDialogImpl" timestamp="1599235119406">
+      <screen x="0" y="28" width="3840" height="1052" />
     </state>
+    <state x="896" y="264" width="424" height="491" key="FileChooserDialogImpl/0.28.3840.1052@0.28.3840.1052" timestamp="1599235119406" />
     <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1598368633637" />
     <state x="779" y="312" width="424" height="491" key="FileChooserDialogImpl/72.28.1848.1052@72.28.1848.1052" timestamp="1598622855481" />
     <state x="225" y="264" width="618" height="580" key="find.popup" timestamp="1598650839790">

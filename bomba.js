@@ -104,3 +104,11 @@ $("#inputTipo").click(function () {
 
     }
 });
+$("#botao").click(function () {
+
+// $.ajax({
+//     url: "http://localhost:9090",
+// })
+
+
+})
