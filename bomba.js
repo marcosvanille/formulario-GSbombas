@@ -107,7 +107,7 @@ $("#inputTipo").click(function () {
 $("#botao").click(function () {
 
     $.ajax({
-        url: "http://localhost:9090/teste.php",
+        url: "http://localhost:9091/teste.php",
         type: 'POST',
         data: $('#formulario').serialize(),
         success: function (data) {
