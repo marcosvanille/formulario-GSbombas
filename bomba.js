@@ -106,9 +106,19 @@ $("#inputTipo").click(function () {
 });
 $("#botao").click(function () {
 
-// $.ajax({
-//     url: "http://localhost:9090",
-// })
+    $.ajax({
+        url: "http://localhost:9090/teste.php",
+        type: 'POST',
+        data: $('#formulario').serialize(),
+        success: function (data) {
+            alert('Cadastrado com sucesso!')
+            console.log(data);
+        },
+        error: function (data) {
+            alert('Erro ao chamar requisiçao')
+        }
 
+    });
+    return false;
 
 })
