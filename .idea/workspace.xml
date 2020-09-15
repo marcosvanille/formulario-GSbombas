@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="009fdd25-5e95-4eca-928f-ecd6ef035fa8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bomba.js" beforeDir="false" afterPath="$PROJECT_DIR$/bomba.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +49,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -87,7 +86,9 @@
       <workItem from="1599002165423" duration="4234000" />
       <workItem from="1599232901830" duration="2219000" />
       <workItem from="1599235165917" duration="9029000" />
-      <workItem from="1599525774514" duration="15157000" />
+      <workItem from="1599525774514" duration="16508000" />
+      <workItem from="1599684178157" duration="1248000" />
+      <workItem from="1600116017389" duration="3369000" />
     </task>
     <servers />
   </component>
@@ -104,12 +105,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="896" y="264" width="424" height="491" key="FileChooserDialogImpl" timestamp="1599235119406">
-      <screen x="0" y="28" width="3840" height="1052" />
+    <state x="448" y="263" width="374" height="492" key="FileChooserDialogImpl" timestamp="1599687180699">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="896" y="264" width="424" height="491" key="FileChooserDialogImpl/0.28.3840.1052@0.28.3840.1052" timestamp="1599235119406" />
+    <state x="448" y="263" width="374" height="492" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599687180699" />
     <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1598368633637" />
     <state x="779" y="312" width="424" height="491" key="FileChooserDialogImpl/72.28.1848.1052@72.28.1848.1052" timestamp="1598622855481" />
     <state x="225" y="264" width="618" height="580" key="find.popup" timestamp="1598650839790">
